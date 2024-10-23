@@ -1,0 +1,37 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x00e7996b: DB_HDB + 0x7996b (?find_sections@HDB_SECTIONS_COL@@QBI?AVconst_iterator@?$list@PAVHDB_SECTION_COL@@V?$MEM_STL_ALLOCATOR@PAVHDB_SECTION_COL@@@@@_Dinkum_std@@W4ACF_SECTION_TYPE_ENUM@@@Z + 0xb)
+	</callstack>
+	<error>Current editor: RUI, RUI, STED, RPW, GED, RPW, ASE</error>
+	<date>Wed Oct 02 14:26:00 2024</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X00E7996B
+Current editor: RUI, RUI, STED, RPW, GED, RPW, ASE
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x7735694d: ntdll + 0x5694d (RtlInterlockedPopEntrySList + 0x246)
+	0x773560c6: ntdll + 0x560c6 (_wcsnicmp + 0x98a)
+	0x773563e5: ntdll + 0x563e5 (_wcsnicmp + 0xca9)
+	0x75a8c583: kernel32 + 0x4c583 (HeapFree + 0x13)
+	0x6c7a3c1a: MSVCR90 + 0x63c1a (free + 0xcc)
+	0x0487ba32: GCL_SFTTREE + 0x1ba32 (_SftTree_SetColumnsEx@12 + 0x292)
+	</callstack>
+	<error>Current editor: RUI, RPW, STED, FLP, WED, ASE</error>
+	<date>Wed Oct 02 15:59:53 2024</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X7735694D
+Current editor: RUI, RPW, STED, FLP, WED, ASE
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+

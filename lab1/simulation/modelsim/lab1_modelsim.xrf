@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrator/Desktop/projects/plis/RS-p21/lab1.v
+source_file = 1, C:/Users/Administrator/Desktop/projects/plis/RS-p21/db/lab1.cbx.xml
+design_name = mux41
+instance = comp, \d[2]~I , d[2], mux41, 1
+instance = comp, \sel[1]~I , sel[1], mux41, 1
+instance = comp, \d[1]~I , d[1], mux41, 1
+instance = comp, \sel[0]~I , sel[0], mux41, 1
+instance = comp, \d[0]~I , d[0], mux41, 1
+instance = comp, \M2|out~1 , M2|out~1, mux41, 1
+instance = comp, \d[3]~I , d[3], mux41, 1
+instance = comp, \M2|out~2 , M2|out~2, mux41, 1
+instance = comp, \out~I , out, mux41, 1

@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\projects\plis\RS-p21\simulation\modelsim
+vmux210
+IW4O1G?YaDjO2?7UkF0ooV3
+VkG2M@l?zimGU>Ybe1XPo43
+Z1 w1728475918
+Z2 8C:/Users/Administrator/Desktop/projects/plis/RS-p21/lab1.v
+Z3 FC:/Users/Administrator/Desktop/projects/plis/RS-p21/lab1.v
+L0 103
+Z4 OV;L;6.4a;39
+r1
+31
+Z5 o-vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/projects/plis/RS-p21 -O0
+!s100 65Mmo@Fm]3CE42WnXD5fU0
+!s85 0
+vmux41
+IkhVF<CfY30LAb?6BL0o@;0
+VoM11Q8I>gOd[jb9_NGfgX3
+R1
+R2
+R3
+L0 112
+R4
+r1
+31
+R5
+!s100 8NNcW?QIz[@V`zTZE]h1:2
+!s85 0
+vtestbranch
+!s100 ;43Mj]0NfCBONWTN1fcmE2
+I1[gBab>f^_0:oOoiF2R262
+Vk=[>fbaUgME>g_hOD>]lR3
+w1728477651
+8C:/Users/Administrator/Desktop/projects/plis/RS-p21/testbranch.v
+FC:/Users/Administrator/Desktop/projects/plis/RS-p21/testbranch.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5

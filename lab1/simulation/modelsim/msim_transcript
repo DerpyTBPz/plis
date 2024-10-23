@@ -1,0 +1,46 @@
+# Reading C:/altera/90/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\90\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\90\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/projects/plis/RS-p21 {C:/Users/Administrator/Desktop/projects/plis/RS-p21/lab1.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module mux210
+# -- Compiling module mux41
+# 
+# Top level modules:
+# 	mux41
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/projects/plis/RS-p21 {C:/Users/Administrator/Desktop/projects/plis/RS-p21/testbranch.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module testbranch
+# 
+# Top level modules:
+# 	testbranch
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L flex10ke_ver -L rtl_work -L work -voptargs="+acc" testbranch
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L flex10ke_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testbranch 
+# Loading work.testbranch
+# Loading work.mux41
+# Loading work.mux210
+# 
+# add wave *
+# view structure
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# view signals
+# .main_pane.signals.interior.cs
+# run -all
+# ** Note: $finish    : C:/Users/Administrator/Desktop/projects/plis/RS-p21/testbranch.v(48)
+#    Time: 150 ps  Iteration: 0  Instance: /testbranch
+# 1
+# Break in Module testbranch at C:/Users/Administrator/Desktop/projects/plis/RS-p21/testbranch.v line 48
+# Simulation Breakpoint: 1
+# Break in Module testbranch at C:/Users/Administrator/Desktop/projects/plis/RS-p21/testbranch.v line 48
+# MACRO ./lab1_run_msim_rtl_verilog.do PAUSED at line 17
