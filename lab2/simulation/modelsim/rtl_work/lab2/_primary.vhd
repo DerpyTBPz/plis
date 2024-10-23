@@ -1,6 +1,9 @@
 library verilog;
 use verilog.vl_types.all;
 entity lab2 is
+    generic(
+        MAX_COUNT       : integer := 8000
+    );
     port(
         clk             : in     vl_logic;
         rst             : in     vl_logic;

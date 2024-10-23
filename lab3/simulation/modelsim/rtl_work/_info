@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\projects\plis\lab2\simulation\modelsim
+vdelay
+II3El]EY4`T]DZZ=M9]im10
+V2ZIAkVz?D4AXKe97@67HO0
+Z1 w1729676412
+Z2 8C:/Users/Administrator/Desktop/projects/plis/lab2/lab2.v
+Z3 FC:/Users/Administrator/Desktop/projects/plis/lab2/lab2.v
+L0 47
+Z4 OV;L;6.4a;39
+r1
+31
+Z5 o-vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/projects/plis/lab2 -O0
+!s100 gBJe3YE3P0KX2Iim`@:=i2
+!s85 0
+vlab2
+ID<dK0CR]lbW3`C]SPETa<1
+VXVzgmljT>0]cagjPV[BYV1
+R1
+R2
+R3
+L0 1
+R4
+r1
+31
+R5
+!s100 Qf7L=O]TQlX5dAOoCRHBZ0
+!s85 0
+vlab2_delay
+I2Ha[?c:]gdj`3f@P0K;oI3
+VCdYkP`VGJZV7ETQoLhJ];3
+R1
+R2
+R3
+L0 14
+R4
+r1
+31
+R5
+!s100 CmG5JmMD?]E4Fj]O2m`PS2
+!s85 0
+vtestbench2
+!s100 `6hA6d2CS21Ohm^hlm3J@3
+IM`5B43if@c`cl2TiO24JZ2
+VP1nf=kOJKSjFSXDZW;=4T1
+w1729676648
+8C:/Users/Administrator/Desktop/projects/plis/lab2/testbench2;.v
+FC:/Users/Administrator/Desktop/projects/plis/lab2/testbench2;.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5

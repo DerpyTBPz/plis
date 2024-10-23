@@ -1,0 +1,4 @@
+|SM8
+out <= out~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

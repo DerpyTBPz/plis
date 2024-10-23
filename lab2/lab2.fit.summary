@@ -1,11 +1,11 @@
-Fitter Status : Successful - Wed Oct 23 12:40:28 2024
+Fitter Status : Successful - Wed Oct 23 13:43:11 2024
 Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
 Revision Name : lab2
-Top-level Entity Name : lab2_delay
+Top-level Entity Name : lab2
 Family : ACEX1K
 Device : EP1K30TC144-3
 Timing Models : Final
-Total logic elements : 82 / 1,728 ( 5 % )
-Total pins : 18 / 102 ( 18 % )
+Total logic elements : 74 / 1,728 ( 4 % )
+Total pins : 10 / 102 ( 10 % )
 Total memory bits : 0 / 24,576 ( 0 % )
 Total PLLs : 0

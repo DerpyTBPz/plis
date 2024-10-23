@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrator/Desktop/projects/plis/lab4/lab4.v
+source_file = 1, C:/Users/Administrator/Desktop/projects/plis/lab4/db/lab4.cbx.xml
+design_name = SM8
+instance = comp, \rst~I , rst, SM8, 1
+instance = comp, \clk~I , clk, SM8, 1
+instance = comp, \state.001 , state.001, SM8, 1
+instance = comp, \state.010 , state.010, SM8, 1
+instance = comp, \state.011 , state.011, SM8, 1
+instance = comp, \state.100 , state.100, SM8, 1
+instance = comp, \state.101 , state.101, SM8, 1
+instance = comp, \state.110 , state.110, SM8, 1
+instance = comp, \state.111 , state.111, SM8, 1
+instance = comp, \state.000 , state.000, SM8, 1
+instance = comp, \out~I , out, SM8, 1

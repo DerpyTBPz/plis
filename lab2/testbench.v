@@ -3,14 +3,19 @@ module testbench;
     reg rst;
     wire [7:0] out;
 
-    lab2 lab2_inst(.clk(clk), .rst(rst), .out(out));
+    parameter CLK_PERIOD = 125;
 
-    always #5 clk = ~clk;
+    lab2 lab2_inst(.clk(clk), .rst(rst), .out(out));
+    always begin
+        clk = 1'b0;
+        #(CLK_PERIOD/2);
+        clk = 1'b1;
+        #(CLK_PERIOD/2);
+    end
     initial begin 
-        clk = 0;
-        rst = 1;
-        #10 rst = 0;
-        #1000 $finish;
+        rst = 1'b1;
+        #100 rst = 1'b0;
+        #10000000 $stop;
     end
 
     always @(posedge clk) begin

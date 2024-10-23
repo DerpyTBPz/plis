@@ -1,0 +1,60 @@
+module lab2(input clk, input rst, output reg [7:0] out); //x6 + x4 + x3 + x2 + 1
+	wire feedback = out[7] ^ out[5] ^ out [4] ^ out[3];
+	wire tick;
+
+	delay delay_inst(.clk(clk), .rst(rst), .tick(tick));
+	
+	always @(posedge clk or posedge rst) begin
+		if (rst)
+			out <= 8'b1;
+		else begin
+				out <= {out[6:0], feedback};
+			end
+	end	
+endmodule
+
+module delay(input clk, input rst, input reg tick);
+	reg [22:0] counter;
+	parameter MAX_COUNT = 8000000;
+
+	always @(posedge clk or posedge rst) begin
+		if (rst) begin
+			counter <= 0;
+			tick <= 0;
+		end else begin
+			if (counter == MAX_COUNT-1) begin
+				counter <= 0;
+				tick <= 1;
+			end else begin
+				counter <= counter + 1;
+				tick <= 0;
+			end
+		end
+	end
+endmodule		
+
+
+/*
+module LFSR(Y, clk, rst);
+	parameter	Length = 8;
+	parameter	InitialState = 8'b1001_0001;
+	parameter	[1:Length] Coeff = 8'b1001_1111;
+	input		clk, rst;
+	output reg	[1:Length] Y;
+	
+	always @(posedge clk)
+	if (!rst)
+		Y <= InitialState; 
+	else begin
+		Y[1] <= Y[8];
+		Y[2] <= Coeff[7] ? Y[1]^Y[8] : Y[1];
+		Y[3] <= Coeff[6] ? Y[2]^Y[8] : Y[2];
+		Y[4] <= Coeff[5] ? Y[3]^Y[8] : Y[3];
+		Y[5] <= Coeff[4] ? Y[4]^Y[8] : Y[4];
+		Y[6] <= Coeff[3] ? Y[5]^Y[8] : Y[5];
+		Y[7] <= Coeff[2] ? Y[6]^Y[8] : Y[6];
+		Y[8] <= Coeff[1] ? Y[7]^Y[8] : Y[7];
+	end
+endmodule
+*/
+
